@@ -1,0 +1,43 @@
+body {
+  font-family: sans-serif;
+  background: #f5f7fa;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background: #0a58ca;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+header h1 {
+  margin: 0.2em 0;
+}
+nav a {
+  margin: 0 1em;
+  color: #ffffffcc;
+  text-decoration: none;
+}
+.hero, .products, .contact {
+  padding: 2em;
+  max-width: 800px;
+  margin: auto;
+}
+.products ul {
+  list-style: none;
+  padding: 0;
+}
+.products li {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-radius: 6px;
+}
+footer {
+  text-align: center;
+  padding: 2em;
+  background: #eee;
+  font-size: 0.9em;
+}

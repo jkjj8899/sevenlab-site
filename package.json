@@ -1,0 +1,11 @@
+{
+  "name": "news-auto-generator",
+  "version": "1.0.0",
+  "description": "Auto fetch and update news HTML via GitHub Actions",
+  "main": "fetch-news.js",
+  "scripts": {
+    "start": "node fetch-news.js"
+  },
+  "author": "七点科技",
+  "license": "MIT"
+}
