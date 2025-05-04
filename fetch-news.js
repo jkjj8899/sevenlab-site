@@ -1,7 +1,7 @@
 const fs = require('fs');
 const https = require('https');
 
-const API_KEY = 'your_gnews_api_key';
+const API_KEY = '4e5e216823e06cdd3495c738bd0495d7';
 const NEWS_FILE = 'news.html';
 const apiUrl = `https://gnews.io/api/v4/top-headlines?lang=zh&topic=business&token=${API_KEY}`;
 
