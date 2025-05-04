@@ -2,17 +2,18 @@ name: Auto Update News
 
 on:
   schedule:
-    - cron: '0 3 * * *'  # 每天 UTC 3 点（北京时间上午11点）
+    - cron: '0 3 * * *'  # 每天 UTC 3 点执行一次
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
-          with:
-    ref: main
+        with:
+          ref: main
 
       - name: Set up Node.js
         uses: actions/setup-node@v3
