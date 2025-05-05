@@ -13,7 +13,7 @@
   <header>
     <h1>七点科技</h1>
     <nav>
-      <a href="news.html">📰 行业新闻</a>
+      <a href="/sevenlab-sitenews.html">📰 行业新闻</a>
       <a href="https://github.com/jkjj8899">GitHub</a>
       <a href="https://t.me/sy89899">Telegram</a>
       <a href="https://www.3xex.com">官网</a>
