@@ -16,15 +16,15 @@ https.get(endpoint, (res) => {
       return;
     }
 
-    const cards = newsData.articles.slice(0, 10).map(article => {
-      return `
-      <div class="news-card">
-        <div class="news-title">
-          <a href="${article.url}" class="news-link" target="_blank">${article.title}</a>
-        </div>
-        <div class="news-desc">${article.description || ''}</div>
-      </div>`;
-    }).join('\n');
+const cards = newsData.articles.slice(0, 10).map(article => {
+  return `
+    <article class="news-card">
+      <h2 class="news-title">
+        <a href="${article.url}" class="news-link" target="_blank">${article.title}</a>
+      </h2>
+      <p class="news-desc">${article.description || ''}</p>
+    </article>`;
+}).join('\\n');
 
     const html = `<!DOCTYPE html>
 <html lang="zh">
@@ -90,9 +90,9 @@ https.get(endpoint, (res) => {
   <header>
     <h1>📢 七点科技 · 每日新闻资讯</h1>
   </header>
-  <div class="container">
-    ${cards}
-  </div>
+<main class="container">
+  ${cards}
+</main>
   <footer>
     &copy; 2025 七点科技 - 技术构建未来 · <a href="/">返回首页</a>
   </footer>
