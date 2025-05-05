@@ -24,7 +24,7 @@ const cards = newsData.articles.slice(0, 10).map(article => {
       </h2>
       <p class="news-desc">${article.description || ''}</p>
     </article>`;
-}).join('\\n');
+}).join('\n\n');
 
     const html = `<!DOCTYPE html>
 <html lang="zh">
