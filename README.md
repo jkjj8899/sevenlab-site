@@ -13,7 +13,7 @@
   <header>
     <h1>七点科技</h1>
     <nav>
-      <a href="/sevenlab-site/news.html">📰 行业新闻</a>
+      <a href="https://jkjj8899.github.io/sevenlab-site/news.html">📰 行业新闻</a>
       <a href="https://github.com/jkjj8899">GitHub</a>
       <a href="https://t.me/sy89899">Telegram</a>
       <a href="https://www.3xex.com">官网</a>
@@ -64,7 +64,7 @@
   </section>
 
   <footer>
-    <p>© 2025 七点科技 · 技术驱动 · 专业定制 · <a href="/sevenlab-site/news.html">查看每日新闻</a></p>
+    <p>© 2025 七点科技 · 技术驱动 · 专业定制 · <a href="https://jkjj8899.github.io/sevenlab-site/news.html">查看每日新闻</a></p>
   </footer>
 </body>
 </html>
