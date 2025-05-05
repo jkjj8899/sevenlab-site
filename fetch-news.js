@@ -94,7 +94,7 @@ const cards = newsData.articles.slice(0, 10).map(article => {
   ${cards}
 </main>
   <footer>
-    &copy; 2025 七点科技 - 技术构建未来 · <a href="/">返回首页</a>
+    &copy; 2025 七点科技 - 技术构建未来 · <a href="/sevenlab-site">返回首页</a>
   </footer>
 </body>
 </html>`;
